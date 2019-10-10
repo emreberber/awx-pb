@@ -4,7 +4,7 @@
     - name: Add or modify ansible.example.org A to 192.168.1.1"
       nsupdate:
         key_name: "nsupdate"
-        key_secret: "+bFQtBCta7j2vWkjPkAFtgA=="
+        key_secret: "JAWFgn+LBFG6xemQYqqVAQ=="
         server: "192.168.60.53"
         zone: "compute.local"
         record: "ansible"
