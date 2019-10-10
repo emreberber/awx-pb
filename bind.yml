@@ -3,9 +3,9 @@
   tasks:
     - name: Add or modify ansible.example.org A to 192.168.1.1"
       nsupdate:
-      key_name: "nsupdate"
-      key_secret: "+bFQtBCta7j2vWkjPkAFtgA=="
-      server: "192.168.60.53"
-      zone: "compute.local"
-      record: "ansible"
-      value: "192.168.60.53"
+        key_name: "nsupdate"
+        key_secret: "+bFQtBCta7j2vWkjPkAFtgA=="
+        server: "192.168.60.53"
+        zone: "compute.local"
+        record: "ansible"
+        value: "192.168.60.53"
