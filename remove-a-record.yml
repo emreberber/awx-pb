@@ -1,0 +1,12 @@
+- hosts:
+    - all
+  tasks:
+    - name: Remove record"
+      nsupdate:
+        key_name: "rndc-key"
+        key_secret: "JAWFgn+LBFG6xemQYqqVAQ=="
+        server: "192.168.60.53"
+        zone: "compute.local."
+        record: "gozen"
+        value: "192.168.60.61"
+	state: absent
