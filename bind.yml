@@ -7,5 +7,5 @@
         key_secret: "JAWFgn+LBFG6xemQYqqVAQ=="
         server: "192.168.60.53"
         zone: "compute.local."
-        record: "ansible"
-        value: "192.168.60.53"
+        record: "test"
+        value: "192.168.60.55"
