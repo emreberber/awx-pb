@@ -9,4 +9,4 @@
         zone: "compute.local."
         record: "gozen"
         value: "192.168.60.61"
-	state: absent
+        state: absent
