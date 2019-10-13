@@ -10,3 +10,6 @@
         zone: "{{ ZONE }}"
         record: "{{ RECORD }}"
         value: "{{ VALUE }}"
+
+    - name: rdnc sync -clean
+      shell: rndc sync -clean

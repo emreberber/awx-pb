@@ -10,3 +10,6 @@
         record: "{{ RECORD }}"
         value: "{{ VALUE }}"
         state: absent
+
+    - name: rdnc sync -clean
+      shell: rndc sync -clean
