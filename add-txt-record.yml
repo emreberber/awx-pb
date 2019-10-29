@@ -1,0 +1,15 @@
+- hosts:
+    - all
+  tasks:
+    - name: Add or modify TXT Record
+      nsupdate:
+        key_name: "rndc-key"
+        key_secret: "JAWFgn+LBFG6xemQYqqVAQ=="
+        server: "192.168.60.53"
+        type: "TXT"
+        zone: "{{ ZONE }}"
+        record: "{{ RECORD }}"
+        value: "{{ VALUE }}"
+
+    - name: rdnc sync -clean
+      shell: rndc sync -clean
